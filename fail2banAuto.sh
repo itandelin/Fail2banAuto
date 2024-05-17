@@ -33,16 +33,16 @@ menu_status(){
 }
 
 Install_Fail2ban(){
-    yum install -y epel-release  
-    yum install -y fail2ban
+    apt-get install -y epel-release  
+    apt-get install -y fail2ban
 }
 
 Update_Fail2ban(){
-    yum update -y fail2ban
+    apt-get update -y fail2ban
 }
 
 Uninstall_Fail2ban(){
-    yum remove -y fail2ban
+    apt-get remove -y fail2ban
 }
 
 View_Jail(){
